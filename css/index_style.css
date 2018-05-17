@@ -1,0 +1,41 @@
+element {
+	--main-blue-color: #041E42;
+	--main-red-color: #C8102E;
+	--main-gray-color: #C1C6C8;
+	--main-black-color: #000807;
+	--main-white-color: #FBF9FF;
+}
+
+html {
+	--main-blue-color: #041E42;
+	--main-red-color: #C8102E;
+	--main-gray-color: #C1C6C8;
+	--main-black-color: #000807;
+	--main-white-color: #FBF9FF;	
+}
+
+body {
+	background-color: var(--main-gray-color);
+}
+
+#nav-bar {
+	background-color: var(--main-blue-color) !important;
+}
+
+.navbar-inverse .navbar-brand {
+	color: var(--main-white-color);
+}
+
+.navbar-inverse .navbar-nav .nav-link  {
+	color: var(--main-gray-color);
+}
+
+.navbar-inverse a:hover {
+	color: var(--main-red-color);
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: var(--main-red-color);
+}
